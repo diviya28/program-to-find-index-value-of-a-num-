@@ -1,0 +1,11 @@
+Code to display index value of number :
+
+a_list=[9,4,6,5,8,0,2,3,7,1]
+index=0
+num=int(input("Enter a num between 0-1 :"))
+for i in a_list:
+    if i == num:
+        break
+    else:
+        index+=1
+print(index)
